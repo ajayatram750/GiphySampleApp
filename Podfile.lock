@@ -1,0 +1,54 @@
+PODS:
+  - DeepDiff (2.3.1)
+  - Giphy (2.0.8):
+    - DeepDiff
+    - libwebp
+    - PINCache
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+
+DEPENDENCIES:
+  - Giphy (from `https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.8/Giphy.podspec`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - DeepDiff
+    - libwebp
+    - PINCache
+    - PINOperation
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Giphy:
+    :podspec: https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.8/Giphy.podspec
+
+SPEC CHECKSUMS:
+  DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
+  Giphy: b32a3f3dfdef939fe283a0bdb04d01db38399547
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+
+PODFILE CHECKSUM: f315256f2b2b340e59580130e69ce19907ef7e90
+
+COCOAPODS: 1.10.0
